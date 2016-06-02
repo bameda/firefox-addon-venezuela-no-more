@@ -1,0 +1,22 @@
+{
+    "title": "Venezuela no more",
+    "name": "firefox-addon-venezuela-no-more",
+    "version": "0.0.1",
+    "author": "David Barragán Merino (@bameda)",
+    "license": "MIT",
+    "description": "A funny Firefox addon to get away from Venezuela when you read the Spanish press",
+    "homepage": "https://github.com/bameda/firefox-addon-venezuela-no-more",
+    "icon": "resource://@firefox-addon-venezuela-no-more/data/icons/icon48.png",
+    "keywords": [
+        "fun",
+        "chiquitistan",
+        "press",
+        "spain",
+        "spanish"
+    ],
+    "engines": {
+        "firefox": ">=38.0a1",
+        "fennec": ">=38.0a1"
+    },
+    "main": "index.js"
+}
