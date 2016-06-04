@@ -37,5 +37,9 @@ replacements = [
 ];
 
 replacements.forEach(function(elem, idx) {
-    findAndReplaceDOMText(document.body, {'find': elem.find, 'replace': elem.replace});
+    $("*").each(function () {
+        if ($(this).children().length == 0){
+            $(this).html($(this).html().replace(new RegExp(elem.find, "g"), elem.replace));
+        }
+    });
 });
